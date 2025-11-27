@@ -1,0 +1,24 @@
+{
+  "name": "plugin-health-monitor",
+  "version": "1.0.0",
+  "description": "Obsidian plugin to monitor installed plugin health and maintenance signals.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs --watch",
+    "build": "node esbuild.config.mjs",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [
+    "obsidian-plugin",
+    "health",
+    "maintenance"
+  ],
+  "author": "AI Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.19.48",
+    "esbuild": "^0.20.2",
+    "obsidian": "latest",
+    "typescript": "^5.4.5"
+  }
+}

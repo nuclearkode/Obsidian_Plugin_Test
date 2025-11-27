@@ -1,0 +1,11 @@
+{
+  "id": "plugin-health-monitor",
+  "name": "Plugin Health Monitor",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Scan installed plugins for update freshness and maintenance signals with a health dashboard.",
+  "author": "AI Developer",
+  "authorUrl": "https://example.com",
+  "fundingUrl": "https://example.com/donate",
+  "isDesktopOnly": false
+}
