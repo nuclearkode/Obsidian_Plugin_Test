@@ -1,0 +1,52 @@
+.plugin-health-monitor__summary {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-weight: 600;
+}
+
+.plugin-health-monitor__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.plugin-health-monitor__table th,
+.plugin-health-monitor__table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  text-align: left;
+}
+
+.plugin-health-monitor__badge {
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 12px;
+  color: var(--text-normal);
+  background-color: var(--background-modifier-accent);
+}
+
+.plugin-health-monitor__badge--green {
+  background-color: var(--background-modifier-success);
+  color: var(--text-on-accent);
+}
+
+.plugin-health-monitor__badge--yellow {
+  background-color: var(--background-modifier-warning);
+  color: var(--text-on-accent);
+}
+
+.plugin-health-monitor__badge--red,
+.plugin-health-monitor__badge--black {
+  background-color: var(--background-modifier-error);
+  color: var(--text-on-accent);
+}
+
+.plugin-health-monitor__row-actions {
+  display: flex;
+  gap: 4px;
+}
+
+.plugin-health-monitor__meta {
+  color: var(--text-muted);
+  font-size: 12px;
+}
